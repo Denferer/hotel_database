@@ -57,6 +57,7 @@ create table reservations_clients(
 		foreign key references clients(client_id),
 	primary key(reservation_id, client_id)
 );
+/*Comment*/
 
 
 insert into users(username, password, name, surname, family, egn, telephone, email, hire_date)
