@@ -1,9 +1,12 @@
+/* creating/clearing database */
 drop database HotelManager;
 go
 create database HotelManager;
 go
 use HotelManager;
 go
+
+/* Creating tables */
 
 create table users(
 	user_id int PRIMARY KEY identity(1, 1),
